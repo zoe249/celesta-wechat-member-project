@@ -1,0 +1,133 @@
+@charset "UTF-8";
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+/* 轮播组件开始 */
+.wrap.data-v-25632a78 {
+  width: 710rpx;
+}
+.wrap-swiper.data-v-25632a78 {
+  height: 350rpx;
+}
+.swiper-image.data-v-25632a78 {
+  text-align: center;
+}
+.swiper-image .bg-color.data-v-25632a78 {
+  width: 710rpx;
+  height: 350rpx;
+  margin: 0 auto;
+  border-radius: 20rpx;
+}
+.swiper-content.data-v-25632a78 {
+  position: absolute;
+  top: 20rpx;
+  left: 20rpx;
+  width: 670rpx;
+  color: #FFFFFF;
+}
+.sp-header.data-v-25632a78 {
+  display: flex;
+  justify-content: space-between;
+}
+.sp-header-logo.data-v-25632a78 {
+  display: flex;
+}
+.sp-header-logo image.data-v-25632a78 {
+  width: 80rpx;
+  height: 80rpx;
+  border-radius: 50%;
+}
+.sp-header-logo .company-name.data-v-25632a78 {
+  margin-left: 20rpx;
+  font-size: 28rpx;
+  line-height: 80rpx;
+}
+.growth-value.data-v-25632a78 {
+  font-size: 26rpx;
+  color: #FFFFFF;
+  line-height: 65rpx;
+}
+.growth-value > text.data-v-25632a78 {
+  font-size: 32rpx;
+  color: #FFFFFF;
+  font-weight: 600;
+  line-height: 65rpx;
+}
+.serial-number.data-v-25632a78 {
+  font-size: 26rpx;
+  color: #FFFFFF;
+  line-height: 80rpx;
+}
+.sp-member.data-v-25632a78 {
+  height: 120rpx;
+}
+.member-grade-current .grade-current.data-v-25632a78 {
+  display: flex;
+  justify-content: center;
+}
+.member-grade-current .grade-current-name.data-v-25632a78 {
+  font-size: 40rpx;
+  font-weight: 600;
+  text-align: center;
+  color: #FFFFFF;
+  line-height: 70rpx;
+}
+.member-grade-current .grade-current-name-01.data-v-25632a78 {
+  font-size: 45rpx;
+  line-height: 100rpx;
+}
+.member-grade-current .current-grade.data-v-25632a78 {
+  width: 90rpx;
+  height: 30rpx;
+  text-align: center;
+  margin: 16rpx 10rpx;
+  line-height: 30rpx;
+  font-size: 18rpx;
+  font-weight: normal;
+  color: #FFFFFF;
+  border: 1rpx solid #FFFFFF;
+  border-radius: 50rpx;
+}
+.member-grade-current .current-grade-01.data-v-25632a78 {
+  margin: 35rpx 10rpx;
+}
+.member-grade-current .current-grade-tran.data-v-25632a78 {
+  opacity: 0;
+}
+.member-grade-current .grade-time.data-v-25632a78 {
+  font-size: 24rpx;
+  font-weight: 600;
+  text-align: center;
+  color: #FFFFFF;
+  line-height: 50rpx;
+}
+.member-grade.data-v-25632a78 {
+  font-size: 45rpx;
+  font-weight: 600;
+  text-align: center;
+  color: #FFFFFF;
+  line-height: 100rpx;
+}
+

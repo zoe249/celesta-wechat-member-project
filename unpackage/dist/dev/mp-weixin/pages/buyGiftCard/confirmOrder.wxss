@@ -1,0 +1,446 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 验证码 start */
+.verification-code {
+	margin: 20rpx 20rpx 0;
+	padding: 20rpx 20rpx;
+	background-color: #FFFFFF;
+	border-radius: 10rpx;
+}
+.phone {
+	display: flex;
+	height: 80rpx;
+}
+.phone>view:nth-child(1) {
+	width: 130rpx;
+	font-size: 28rpx;
+	line-height: 80rpx;
+	color: #333333;
+}
+.phone>view:nth-child(2) {
+	width: 230rpx;
+	font-size: 28rpx;
+	line-height: 80rpx;
+	color: #333333;
+}
+.phone>view:nth-child(3) {
+	width: 140rpx;
+	height: 40rpx;
+	margin: 20rpx 20rpx;
+	font-size: 22rpx;
+	text-align: center;
+	line-height: 40rpx;
+	color: #999999;
+	border-radius: 20rpx;
+}
+.phone>view:nth-child(3).get-code {
+	font-size: 20rpx;
+	border: 2rpx solid #999999;
+}
+.other-input {
+	height: 80rpx;
+	color: #333333;
+	line-height: 80rpx;
+}
+.phone-tips {
+	display: flex;
+	height: 60rpx;
+	line-height: 65rpx;
+}
+.phone-tips>view {
+	margin-left: 5rpx;
+	font-size: 24rpx;
+	line-height: 60rpx;
+	color: #aeaeb0;
+}
+/* 验证码 end */
+/* 礼品卡 start */
+.gift-card {
+	margin: 20rpx 20rpx 0;
+	padding: 20rpx 20rpx;
+	background-color: #FFFFFF;
+	border-radius: 10rpx;
+}
+.card-item {
+	display: flex;
+	justify-content: space-between;
+}
+.card-item-info {
+	display: flex;
+	width: 520rpx;
+	height: 150rpx;
+}
+.card-item-info>image {
+	width: 100rpx;
+	height: 100rpx;
+	margin: 25rpx 30rpx 25rpx 0;
+}
+.card-item-goods {
+	width: 400rpx;
+	height: 100rpx;
+	margin: 25rpx 0;
+	font-size: 24rpx;
+	line-height: 33rpx;
+	color: #999999;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+.card-item-goods>view:nth-child(3) {
+	font-size: 26rpx;
+	line-height: 33rpx;
+	color: #C83C23;
+}
+.card-item-num {
+	width: 150rpx;
+	height: 150rpx;
+	text-align: right;
+	line-height: 150rpx;
+	font-size: 30rpx;
+	font-weight: 600;
+}
+/* 礼品卡 end */
+/* 订单信息 start */
+.order-info {
+	/* height: 300rpx; */
+	margin: 20rpx 20rpx 0;
+	padding: 20rpx 20rpx;
+	background-color: #FFFFFF;
+	border-radius: 10rpx;
+}
+.order-info-item {
+	display: flex;
+	justify-content: space-between;
+	height: 80rpx;
+	padding: 0 20rpx;
+	background-color: #FFFFFF;
+	border-radius: 10rpx;
+	font-size: 28rpx;
+	font-weight: 500;
+	line-height: 80rpx;
+	color: #999999;
+}
+.order-info-item>view:nth-child(2) {
+	display: flex;
+	color: #333333;
+}
+/* 订单信息 end */
+/* 底部操作栏 start */
+.navigation {
+	position: fixed;
+	bottom: 0;
+	display: flex;
+	justify-content: space-between;
+	width: 750rpx;
+	height: 100rpx;
+	padding: 30rpx 0;
+	background-color: #FFFFFF;
+	padding-bottom: 0;
+	padding-bottom: constant(safe-area-inset-bottom);
+	padding-bottom: env(safe-area-inset-bottom);
+}
+.total-fee {
+	display: flex;
+	width: 200rpx;
+	margin-left: 20rpx;
+	font-size: 28rpx;
+	color: #333333;
+	line-height: 80rpx;
+}
+.total-fee view:nth-child(2) {
+	font-size: 30rpx;
+	color: #EA0125;
+	font-weight: 600;
+}
+.navigation-but {
+	width: 500rpx;
+	height: 80rpx;
+	margin: 0 20rpx;
+	text-align: center;
+	font-size: 32rpx;
+	font-weight: 500;
+	color: #FFFFFF;
+	line-height: 80rpx;
+	background: linear-gradient(270deg, #FF4B2B 0%, #FF8F67 100%);
+	border-radius: 40px;
+}
+/* 底部操作栏 end */
+
+

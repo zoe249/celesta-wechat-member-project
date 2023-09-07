@@ -1,0 +1,608 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 自定义头部 start */
+.header {
+	position: fixed;
+	z-index: 999;
+}
+.header-view {
+	display: flex;
+	position: absolute;
+	bottom: 10rpx;
+}
+.header-icon {
+	/* margin-left: 20rpx; */
+	padding: 8rpx 0 0 20rpx;
+}
+.header-title {
+	width: 630rpx;
+	margin-right: 60rpx;
+	font-size: 34rpx;
+	font-weight: 500;
+	line-height: 50rpx;
+	text-align: center;
+	color: #FFFFFF;
+}
+/* 自定义头部 end */
+/* 背景 start */
+.content {
+	position: relative;
+    width: 100vw;
+    height: 100vh;
+    background-size: cover;
+    background-position-x: center;
+    background-position-y: center;
+}
+.signin-info {
+	position: relative;
+	width: 100%;
+	height: 60%;
+}
+.signin-num {
+	position: absolute;
+	left: 237rpx;
+	bottom: 210rpx;
+	width: 276rpx;
+	height: 276rpx;
+}
+.signin-num>image {
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	width: 276rpx;
+	height: 276rpx;
+	z-index: 1;
+}
+.signin-num-text {
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	width: 276rpx;
+	height: 276rpx;
+	z-index: 2;
+}
+.signin-num-text view {
+	text-align: center;
+	color: #FFFFFF;
+}
+.signin-num-text view:nth-child(1) {
+	margin-top: 85rpx;
+	font-size: 68rpx;
+	line-height: 80rpx;
+	font-weight: 600;
+	text-shadow: 0px 2px 0px #FEB62E;
+}
+.signin-num-text view:nth-child(2) {
+	font-size: 24rpx;
+	line-height: 60rpx;
+}
+/* 背景 end */
+/* 每日签到 start */
+.sign-in {
+	position: absolute;
+	bottom: 0;
+	width: calc(100% - 40rpx);
+	height: 500rpx;
+	margin: 0 20rpx 20rpx;
+	background-color: #FFFFFF;
+	border-radius: 15rpx;
+}
+.sign-in-title {
+	display: flex;
+	justify-content: space-between;
+	height: 90rpx;
+}
+.sign-in-title>view:nth-child(1) {
+	margin: 0 40rpx;
+	line-height: 100rpx;
+	font-size: 35rpx;
+	font-weight: 600;
+	color: #000000;
+}
+.sign-in-title>view:nth-child(1) text:nth-child(2) {
+	font-size: 44rpx;
+	color: #FF2562;
+	margin: 0 10rpx;
+}
+.remind-sign-in {
+	display: flex;
+	margin: 0 40rpx;
+}
+.remind-sign-in>text {
+	font-size: 24rpx;
+	line-height: 100rpx;
+	color: #B2B2B2;
+}
+.remind-sign-in>view {
+	line-height: 107rpx;
+}
+.form-switch {
+	margin: 10rpx 0 10rpx 10rpx;
+}
+.sign-in-but {
+	height: 130rpx;
+	padding-top: 20rpx;
+}
+.sign-in-but-in {
+	display: flex;
+	justify-content: center;
+	width: 400rpx;
+	height: 80rpx;
+	margin: 0 auto;
+	background: linear-gradient(40deg, #4948E7 0%, #A97DFA 46%, #8CE5F6 100%);
+	border-radius: 40rpx;
+	text-align: center;
+}
+.sign-in-but-in>image {
+	width: 40rpx;
+	height: 40rpx;
+	margin: 20rpx 10rpx 20rpx 0;
+}
+.sign-in-but-in>text {
+	font-size: 32rpx;
+	font-weight: 500;
+	line-height: 40rpx;
+	color: #FFFFFF;
+	margin: 20rpx 0;
+}
+.sign-in-time {
+	height: 250rpx;
+}
+.sign-in-time-info {
+	display: flex;
+	margin: 0 20rpx;
+}
+.time-item {
+	width: 102rpx;
+	height: 150rpx;
+	padding: 20rpx 0;
+}
+.item-coupon {
+	position: relative;
+	width: 72rpx;
+	height: 38rpx;
+}
+.item-coupon>image {
+	position: absolute;
+	top: 0;
+	left: calc(50% - 20rpx);
+	width: 72rpx;
+	height: 38rpx;
+	margin-top: -10rpx;
+}
+.item-coupon>view {
+	position: absolute;
+	top: 0;
+	left: calc(50% - 20rpx);
+	width: 72rpx;
+	text-align: center;
+	font-size: 18rpx;
+	line-height: 15rpx;
+	color: #FFFFFF;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+.item-date {
+	text-align: center;
+	font-size: 22rpx;
+	font-weight: 600;
+	line-height: 60rpx;
+	color: #333333;
+}
+.item-state {
+	margin: 0 10rpx;
+	padding: 10rpx 0;
+	background-color: #F9F9F9;
+	border-radius: 10rpx;
+}
+.item-state-action {
+	background-color: #FFF1C6;
+}
+.item-state>image {
+	display: block;
+	width: 48rpx;
+	height: 48rpx;
+	margin: 0 auto;
+}
+.item-reward {
+	height: 40rpx;
+	text-align: center;
+	font-size: 24rpx;
+	line-height: 40rpx;
+	color: #B6B6B6;
+}
+.whole-sign-in {
+	position: fixed;
+	right: 0;
+	top: 250rpx;
+	width: 144rpx;
+	height: 54rpx;
+	background: linear-gradient(47deg, #4948E7 0%, #A97DFA 46%, #8CE5F6 100%);
+	border-radius: 100rpx 0rpx 0rpx 100rpx;
+	text-align: center;
+	font-size: 24rpx;
+	font-weight: 500;
+	color: #FFFFFF;
+	line-height: 54rpx;
+}
+/* 每日签到 end */
+
+

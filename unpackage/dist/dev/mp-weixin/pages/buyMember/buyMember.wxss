@@ -1,0 +1,145 @@
+@charset "UTF-8";
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+.member-wrap.data-v-b73b5270 {
+  padding: 20rpx;
+  background: #FFFFFF;
+}
+.member-wrap .title.data-v-b73b5270 {
+  font-size: 32rpx;
+  font-weight: 800;
+  color: #E6B991;
+  margin-bottom: 20rpx;
+}
+.member-wrap .member-list.data-v-b73b5270 {
+  display: flex;
+}
+.member-wrap .member-list .member-item.data-v-b73b5270 {
+  width: 230rpx;
+  margin: 0 10rpx;
+}
+.member-wrap .member-list .member-item .member-item-img.data-v-b73b5270 {
+  margin: 20rpx 20rpx;
+}
+.member-wrap .member-list .member-item .member-item-img image.data-v-b73b5270 {
+  width: 168rpx;
+  height: 168rpx;
+  border-radius: 10rpx;
+}
+.member-wrap .member-list .member-item .member-item-img text.data-v-b73b5270 {
+  margin-top: 20rpx;
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+  font-size: 32rpx;
+  font-family: PingFang SC;
+  font-weight: 800;
+  color: #333333;
+}
+.member-wrap .member-list .member-item .member-item-price.data-v-b73b5270 {
+  margin-top: 50rpx;
+  margin-bottom: 20rpx;
+}
+.member-wrap .member-list .member-item .member-item-price .new-price.data-v-b73b5270 {
+  color: #DDB28C;
+  text-align: center;
+}
+.member-wrap .member-list .member-item .member-item-price .old-price.data-v-b73b5270 {
+  color: #999999;
+  text-decoration: line-through;
+  text-align: center;
+}
+.member-wrap .member-list .member-item .member-item-price .small.data-v-b73b5270 {
+  font-size: 28rpx;
+}
+.member-wrap .member-list .member-item .member-item-price .blod.data-v-b73b5270 {
+  font-size: 36rpx;
+  font-weight: 600;
+}
+.member-wrap .member-list .current-member.data-v-b73b5270 {
+  border-radius: 10rpx;
+  background-color: #FFF2E1;
+}
+.explain-wrap.data-v-b73b5270 {
+  margin: 20rpx;
+  padding: 20rpx;
+  background-color: #FFFFFF;
+  border-radius: 10rpx;
+}
+.explain-wrap .content.data-v-b73b5270 {
+  margin-top: 20rpx;
+  font-size: 22rpx;
+  color: #333333;
+  line-height: 44rpx;
+}
+.pay-btn.data-v-b73b5270 {
+  position: absolute;
+  width: 100vw;
+  bottom: 50rpx;
+}
+.pay-btn .checked.data-v-b73b5270 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.pay-btn .checked view.data-v-b73b5270 {
+  font-size: 22rpx;
+  font-weight: 500;
+  color: #999999;
+}
+.pay-btn .toPay.data-v-b73b5270 {
+  margin: 20rpx;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #FFFFFF;
+  height: 80rpx;
+  background-color: #ED6D46;
+  border-radius: 40rpx;
+  font-size: 28rpx;
+}
+.pay-btn .toPay .blod.data-v-b73b5270 {
+  font-size: 36rpx;
+  font-weight: 600;
+}
+.not-activity.data-v-b73b5270 {
+  width: 350rpx;
+  margin: 40% auto 0;
+}
+.not-activity > image.data-v-b73b5270 {
+  display: block;
+  width: 176rpx;
+  height: 180rpx;
+  margin: 0 auto 0;
+}
+.not-activity > view.data-v-b73b5270 {
+  text-align: center;
+  font-size: 28rpx;
+  font-weight: 500;
+  color: #333333;
+  line-height: 40rpx;
+}
+

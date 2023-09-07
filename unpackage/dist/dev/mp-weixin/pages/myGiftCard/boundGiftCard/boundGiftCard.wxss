@@ -1,0 +1,36 @@
+.content-text {
+  display: flex;
+  height: 90rpx;
+  margin-top: 50rpx;
+  padding: 0 20rpx;
+  background-color: #FFFFFF;
+}
+.text-name {
+  width: 250rpx;
+  height: 90rpx;
+  font-size: 28rpx;
+  color: #333333;
+  line-height: 90rpx;
+}
+.text-contene {
+  width: 460rpx;
+}
+.u-input__right-icon {
+  margin-top: 20rpx;
+}
+.bottom-button {
+  position: fixed;
+  bottom: 0;
+  margin: 50rpx 20rpx 100rpx;
+  width: 710rpx;
+  height: 90rpx;
+  background-color: #ED6D46;
+  border-radius: 90rpx;
+  color: #FFFFFF;
+  text-align: center;
+  line-height: 90rpx;
+}
+.u-input__right-icon {
+  margin-top: 28rpx;
+}
+

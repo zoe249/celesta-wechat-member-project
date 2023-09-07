@@ -1,0 +1,10 @@
+{
+  "navigationBarTitleText": "会员登录",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "u-icon": "/uview-ui/components/u-icon/u-icon",
+    "u-popup": "/uview-ui/components/u-popup/u-popup",
+    "u-no-network": "/uview-ui/components/u-no-network/u-no-network",
+    "yp-login": "/components/ui-components/yp-login/yp-login"
+  }
+}

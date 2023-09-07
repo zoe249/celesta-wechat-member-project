@@ -1,0 +1,66 @@
+page {
+  font-size: 28rpx;
+  background-color: #EFF5F8;
+}
+.top-img {
+  margin: 20rpx 300rpx;
+}
+.uploadImg {
+  width: 120rpx;
+  height: 120rpx;
+  border-radius: 50%;
+  margin: 0 auto;
+  overflow: hidden;
+}
+.uploadImg image {
+  width: 120rpx;
+}
+.upload-text {
+  margin-top: 10rpx;
+  font-size: 24rpx;
+}
+.content {
+  background-color: #FFFFFF;
+  padding: 0 20rpx;
+}
+.content-text {
+  display: flex;
+}
+.text-name {
+  width: 150rpx;
+  line-height: 90rpx;
+}
+.text-contene {
+  width: 500rpx;
+  margin-bottom: 10rpx;
+}
+.text-icon {
+  text-align: center;
+  width: 50rpx;
+  height: 90rpx;
+  line-height: 90rpx;
+}
+.text-icon-address {
+  margin-top: 20rpx;
+  text-align: center;
+  width: 50rpx;
+  height: 60rpx;
+  line-height: 60rpx;
+}
+.bottom-button {
+  margin: 40rpx 20rpx;
+  width: 710rpx;
+  height: 90rpx;
+  background-color: #ED6D46;
+  border-radius: 90rpx;
+  color: #FFFFFF;
+  text-align: center;
+  line-height: 90rpx;
+}
+.address {
+  padding-top: 20rpx;
+}
+.u-form-item {
+  padding: 0 !important;
+}
+

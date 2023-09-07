@@ -1,0 +1,28 @@
+
+.moreGoods {
+	height: 100rpx;
+	text-align: center;
+	font-size: 20rpx;
+	font-weight: 500;
+	color: #999999;
+	line-height: 60rpx;
+}
+.not-activity {
+	width: 350rpx;
+	margin: 40% auto 0;
+}
+.not-activity>image {
+	display: block;
+	width: 176rpx;
+	height: 180rpx;
+	margin: 0 auto 0;
+}
+.not-activity>view {
+	text-align: center;
+	font-size: 28rpx;
+	font-weight: 500;
+	color: #333333;
+	line-height: 40rpx;
+}
+
+

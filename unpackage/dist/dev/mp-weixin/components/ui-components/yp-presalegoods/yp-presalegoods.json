@@ -1,0 +1,6 @@
+{
+  "component": true,
+  "usingComponents": {
+    "yp-count-down": "/components/ui-components/yp-count-down/yp-count-down"
+  }
+}

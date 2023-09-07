@@ -1,0 +1,1 @@
+<view class="content"><view class="prize-view"><block wx:for="{{prizes}}" wx:for-item="item" wx:for-index="index" wx:key="index"><view class="prize-item"><view class="prize-time">{{item.drawTime}}</view><view class="prize-name">{{item.name}}</view></view></block></view></view>

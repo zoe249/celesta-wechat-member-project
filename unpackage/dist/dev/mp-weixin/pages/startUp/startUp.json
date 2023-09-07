@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "yp-loading": "/components/yp-loading/yp-loading",
+    "u-no-network": "/uview-ui/components/u-no-network/u-no-network"
+  }
+}

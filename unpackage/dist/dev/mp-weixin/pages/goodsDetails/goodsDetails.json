@@ -1,0 +1,12 @@
+{
+  "navigationBarTitleText": "商品详情",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "u-parse": "/uview-ui/components/u-parse/u-parse",
+    "u-popup": "/uview-ui/components/u-popup/u-popup",
+    "yp-navigation": "/components/ui-components/yp-navigation/yp-navigation",
+    "yp-specs": "/components/ui-components/yp-specs/yp-specs",
+    "qrcode-poster": "/common/qrcode-poster/qrcode-poster",
+    "yp-presalegoods": "/components/ui-components/yp-presalegoods/yp-presalegoods"
+  }
+}

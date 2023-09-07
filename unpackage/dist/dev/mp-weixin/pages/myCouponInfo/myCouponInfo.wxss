@@ -1,0 +1,398 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 券 start */
+.coupon {
+	display: flex;
+	border-radius: 10rpx;
+	background-color: #FFFFFF;
+	overflow: hidden;
+	margin: 20rpx 20rpx 0;
+}
+.coupon-info-left {
+	display: flex;
+	height: 188rpx;
+}
+.coupon-info-img>image {
+	width: 20rpx;
+	height: 100%;
+}
+.coupon-info-num {
+	min-width: 180rpx;
+	height: 100%;
+	padding: 0 10rpx;
+	text-align: center;
+	border-right: 2rpx dashed #999999;
+}
+.coupon-info-num>text:nth-child(1) {
+	font-size: 50rpx;
+	font-weight: 600;
+	line-height: 180rpx;
+}
+.coupon-info-num>text:nth-child(2) {
+	font-size: 14px;
+	font-weight: 600;
+	line-height: 180rpx;
+}
+.coupon-info-right {
+	height: 148rpx;
+	margin: 20rpx;
+}
+.coupon-info-title {
+	font-size: 22rpx;
+	font-weight: 500;
+	line-height: 48rpx;
+}
+.coupon-item-term {
+	width: 470rpx;
+	margin: 10rpx 0;
+	font-size: 28rpx;
+	font-weight: 500;
+	line-height: 40rpx;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	display: -webkit-box;
+	-webkit-box-orient: vertical;
+	-webkit-line-clamp: 2;
+	word-break: break-all;
+}
+/* 券 end */
+/* 码 start */
+.code {
+	position: relative;
+	margin: 20rpx 20rpx;
+	padding-bottom: 20rpx;
+	background-color: #FFFFFF;
+	border-radius: 10rpx;
+}
+.bar-code {
+	padding: 20rpx 0;
+	margin: 0 20rpx 0 12rpx;
+	border-bottom: 2rpx solid #EEEEEE;
+}
+.bar-code-code {
+	height: 200rpx;
+}
+.bar_code {
+	width: 670rpx;
+	height: 200rpx;
+}
+.bar-code-text {
+	font-size: 30rpx;
+	text-align: center;
+	color: #333333;
+	line-height: 50rpx;
+}
+.bar-code-num {
+	display: flex;
+	justify-content: space-between;
+}
+.bar-code-num>view {
+	flex: 0.333;
+}
+.bar-code-num>view:nth-child(2) {
+	font-size: 30rpx;
+	text-align: center;
+	color: #333333;
+	line-height: 50rpx;
+}
+.bar-code-num>view:nth-child(3) view {
+	width: 70rpx;
+	height: 34rpx;
+	margin: 7rpx 0 7rpx 20rpx;
+	border: 2rpx solid #CCCCCC;
+	border-radius: 19rpx;
+	text-align: center;
+	font-size: 17rpx;
+	color: #333333;
+	line-height: 34rpx;
+}
+.qr-code>image {
+	display: block;
+	width: 300rpx;
+	height: 300rpx;
+	margin: 30rpx auto;
+}
+.userCodeMask {
+	width: 750rpx;
+	height: 60vh;
+	background-color: #FFFFFF;
+}
+.code-mask {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background-color: rgba(255, 255, 255, .6);
+}
+.code-mask>image {
+	position: absolute;
+	bottom: 200rpx;
+	right: 150rpx;
+	width: 140rpx;
+	height: 131rpx;
+}
+/* 码 end */
+/* 规则 start */
+.rule {
+	margin: 20rpx;
+	padding: 20rpx;
+	background-color: #FFFFFF;
+	border-radius: 10rpx;
+}
+.rule-title {
+	height: 60rpx;
+	font-size: 28rpx;
+	font-weight: 500;
+	line-height: 60rpx;
+	color: #333333;
+}
+.rule-info {
+	display: flex;
+	justify-content: space-between;
+}
+.rule-info-left {
+	width: 120rpx;
+	font-size: 26rpx;
+	font-weight: 400;
+	line-height: 60rpx;
+	color: #999999;
+}
+.rule-info-right {
+	max-width: 550rpx;
+	margin: 10rpx 0;
+	font-size: 25rpx;
+	font-weight: 500;
+	line-height: 40rpx;
+	color: #333333;
+}
+/* 规则 end */
+
+

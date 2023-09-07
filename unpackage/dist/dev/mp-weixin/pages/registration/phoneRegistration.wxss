@@ -1,0 +1,92 @@
+page {
+  font-size: 28rpx;
+  background-color: #EFF5F8;
+}
+.top-img {
+  margin: 60rpx 300rpx;
+}
+.uploadImg {
+  width: 150rpx;
+  height: 150rpx;
+  border-radius: 50%;
+  margin: 0 auto;
+  overflow: hidden;
+}
+.uploadImg image {
+  width: 150rpx;
+}
+.upload-text {
+  text-align: center;
+  margin-top: 20rpx;
+  font-size: 24rpx;
+  font-weight: 600;
+  color: #555352;
+}
+.content {
+  background-color: #FFFFFF;
+  padding: 0 20rpx;
+}
+.content-text {
+  display: flex;
+}
+.text-contene {
+  display: flex;
+  width: 710rpx;
+}
+.text-input-code {
+  width: 520rpx;
+}
+.text-gender {
+  display: flex;
+}
+.choice-0,
+.choice-1 {
+  margin: 20rpx auto;
+  width: 100rpx;
+  height: 50rpx;
+  background-color: #a8a8a0;
+  border-radius: 10rpx;
+  color: #FFFFFF;
+  text-align: center;
+  line-height: 50rpx;
+}
+.choice-0 {
+  margin-right: 10rpx;
+}
+.choice-action {
+  background-color: #ED6D46;
+}
+.bottom-Code {
+  margin: 20rpx auto;
+  width: 170rpx;
+  height: 50rpx;
+  background-color: #ED6D46;
+  border-radius: 10rpx;
+  color: #FFFFFF;
+  text-align: center;
+  line-height: 50rpx;
+}
+.text-input {
+  width: 640rpx;
+}
+.text-icon {
+  text-align: center;
+  width: 50rpx;
+  height: 90rpx;
+  line-height: 90rpx;
+}
+.agreement {
+  margin: 20rpx;
+  width: 710rpx;
+}
+.bottom-button {
+  margin: 100rpx 20rpx 0;
+  width: 710rpx;
+  height: 90rpx;
+  background-color: #ED6D46;
+  border-radius: 90rpx;
+  color: #FFFFFF;
+  text-align: center;
+  line-height: 90rpx;
+}
+

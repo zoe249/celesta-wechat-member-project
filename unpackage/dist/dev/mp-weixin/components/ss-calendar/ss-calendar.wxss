@@ -1,0 +1,135 @@
+@charset "UTF-8";
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+.calendar.data-v-1315d1c8 {
+  background-color: #fff;
+  color: #333;
+}
+.calendar .header.data-v-1315d1c8 {
+  margin: 0 20rpx;
+  width: calc(100% - 40rpx);
+  padding-top: 30rpx;
+  display: flex;
+  justify-content: space-between;
+}
+.calendar .header .current-date.data-v-1315d1c8 {
+  text-align: center;
+  font-size: 34rpx;
+  padding: 20rpx 0;
+  color: #030303;
+}
+.calendar .header .btn-group.data-v-1315d1c8 {
+  display: flex;
+  align-items: center;
+}
+.calendar .header .btn-group .btn.data-v-1315d1c8 {
+  line-height: 1;
+  background: #fff;
+  color: #606266;
+  text-align: center;
+  box-sizing: border-box;
+  font-weight: 500;
+  padding: 12rpx 20rpx;
+  font-size: 24rpx;
+}
+.calendar .header .btn-group .btn image.data-v-1315d1c8 {
+  width: 64rpx;
+  height: 64rpx;
+}
+.calendar .header .btn-group .btn.btn-prev.data-v-1315d1c8 {
+  border-radius: 2px 0 0 2px;
+  border-right: 0;
+}
+.calendar .header .btn-group .btn.btn-next.data-v-1315d1c8 {
+  border-radius: 0 2px 2px 0;
+}
+.calendar .body .weeks.data-v-1315d1c8 {
+  display: flex;
+  font-size: 30rpx;
+  padding: 140rpx 0 20rpx;
+}
+.calendar .body .weeks .week-item.data-v-1315d1c8 {
+  flex: 1;
+  text-align: center;
+}
+.calendar .body .day-list.data-v-1315d1c8 {
+  display: flex;
+  flex-wrap: wrap;
+}
+.calendar .body .day-list .day-item.data-v-1315d1c8 {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 14.285%;
+  text-align: center;
+  padding: 10rpx 0;
+  font-size: 36rpx;
+}
+.calendar .body .day-list .day-item.current-month-day.data-v-1315d1c8 {
+  color: #B6B6B6;
+}
+.calendar .body .day-list .day-item.checked .date-reward.data-v-1315d1c8 {
+  position: relative;
+  width: 76rpx;
+  height: 76rpx;
+  line-height: 76rpx;
+  background: rgba(255, 37, 98, 0.08);
+  border: 2rpx solid #FF2562;
+}
+.calendar .body .day-list .day-item.checked .date-reward .checked-view.data-v-1315d1c8 {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 38rpx;
+  height: 24rpx;
+  background-color: #FF2562;
+  border-radius: 0rpx 17rpx 0rpx 12rpx;
+}
+.calendar .body .day-list .day-item.checked .date-reward .checked-view image.data-v-1315d1c8 {
+  position: absolute;
+  top: 2rpx;
+  right: 9rpx;
+  width: 20rpx;
+  height: 20rpx;
+}
+.calendar .body .day-list .day-item.checked .text.data-v-1315d1c8 {
+  color: #FF2562;
+}
+.day.data-v-1315d1c8 {
+  font-size: 24rpx;
+  color: #bcbcbd;
+}
+.date-reward.data-v-1315d1c8 {
+  width: 80rpx;
+  height: 80rpx;
+  margin: 0 auto;
+  background-color: #F9F9F9;
+  text-align: center;
+  font-size: 26rpx;
+  border-radius: 20rpx;
+  line-height: 80rpx;
+}
+

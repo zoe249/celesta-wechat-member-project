@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "秒杀商品",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "yp-seckill-commodity": "/components/ui-components/yp-seckill-commodity/yp-seckill-commodity"
+  }
+}

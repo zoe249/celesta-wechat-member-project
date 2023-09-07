@@ -1,0 +1,1 @@
+<view class="content data-v-3496c455"><web-view src="{{embedSrc}}" class="data-v-3496c455"></web-view><block wx:if="{{embedSrc==''}}"><view class="isembed data-v-3496c455"><u-empty vue-id="5e424751-1" text="暂未设置公众号" mode="message" class="data-v-3496c455" bind:__l="__l"></u-empty></view></block></view>

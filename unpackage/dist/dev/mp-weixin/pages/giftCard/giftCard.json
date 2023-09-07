@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "我的礼品卡",
+  "enablePullDownRefresh": true,
+  "usingComponents": {
+    "yp-gift-card": "/components/ui-components/yp-gift-card/yp-gift-card"
+  }
+}

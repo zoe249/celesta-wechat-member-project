@@ -1,0 +1,120 @@
+page {
+  font-size: 28rpx;
+  background-color: #EFF5F8;
+}
+/* 自定义头部 start */
+.header {
+  position: relative;
+  background-color: #FFFFFF;
+}
+.header-view {
+  display: flex;
+  position: absolute;
+  bottom: 20rpx;
+}
+.header-icon {
+  margin-left: 10rpx;
+}
+.header-title {
+  width: 630rpx;
+  margin-right: 60rpx;
+  font-size: 30rpx;
+  line-height: 50rpx;
+  text-align: center;
+}
+/* 自定义头部 end */
+.top-text {
+  font-weight: 600;
+  padding: 0 20rpx;
+  width: 750rpx;
+  background-color: #FDF0EC;
+  height: 70rpx;
+  line-height: 70rpx;
+}
+.content {
+  background-color: #FFFFFF;
+  padding: 0 20rpx;
+}
+.content-text {
+  display: flex;
+}
+.text-name {
+  width: 150rpx;
+  height: 90rpx;
+  line-height: 90rpx;
+}
+.text-contene {
+  width: 550rpx;
+}
+.text-gender {
+  display: flex;
+}
+.choice {
+  margin: 20rpx auto;
+  width: 100rpx;
+  height: 50rpx;
+  background-color: #a8a8a0;
+  border-radius: 10rpx;
+  color: #FFFFFF;
+  text-align: center;
+  line-height: 50rpx;
+}
+.choice-action {
+  background-color: #ED6D46;
+}
+.text-Code {
+  width: 150rpx;
+  height: 90rpx;
+  line-height: 90rpx;
+}
+.text-input {
+  width: 340rpx;
+  height: 90rpx;
+  line-height: 90rpx;
+}
+.bottom-Code {
+  margin: 20rpx auto;
+  width: 200rpx;
+  height: 50rpx;
+  background-color: #ED6D46;
+  border-radius: 10rpx;
+  color: #FFFFFF;
+  text-align: center;
+  line-height: 50rpx;
+}
+.bottom-button {
+  position: fixed;
+  bottom: 0;
+  display: flex;
+  margin: 20rpx 0 100rpx;
+}
+.bottom-button view {
+  margin: 0 20rpx;
+  width: 335rpx;
+  height: 90rpx;
+  font-size: 30rpx;
+  line-height: 90rpx;
+  text-align: center;
+  border-radius: 90rpx;
+}
+.bottom-cancel {
+  background-color: #EFE7E6;
+  border: 1rpx solid #ED6D46;
+  color: #ED6D46;
+}
+.u-form-item {
+  padding: 0 !important;
+}
+.bottom-determine {
+  width: 335rpx;
+  margin: 0 20rpx;
+  color: #FFFFFF;
+  outline: none;
+  border-radius: 50rpx;
+  background-color: #ED6D46;
+  line-height: 90rpx;
+  font-size: 30rpx;
+  text-align: center;
+  border-radius: 90rpx;
+}
+

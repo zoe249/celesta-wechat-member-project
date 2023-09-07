@@ -1,0 +1,1 @@
+<view class="data-v-45bc6842"><yp-loading vue-id="71d12104-1" type="{{2}}" data-ref="loading" class="data-v-45bc6842 vue-ref" bind:__l="__l"></yp-loading><u-no-network vue-id="71d12104-2" class="data-v-45bc6842" bind:__l="__l"></u-no-network></view>

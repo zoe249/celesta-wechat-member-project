@@ -1,0 +1,342 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 积分展示 start */
+.content.data-v-b91532b4 {
+	padding-bottom: 30rpx;
+	background: linear-gradient(to right, #FFA38A, #FF7361);
+}
+.available.data-v-b91532b4 {
+	padding-top: 10rpx;
+	font-size: 28rpx;
+	text-align: center;
+	line-height: 60rpx;
+	color: #EEEEEE;
+}
+.integral.data-v-b91532b4 {
+	font-size: 60rpx;
+	font-weight: 500;
+	text-align: center;
+	line-height: 60rpx;
+	color: #FFFFFF;
+}
+.consume.data-v-b91532b4{
+	margin-top: 20rpx;
+	display: flex;
+	justify-content: center;
+}
+.consume .btn.data-v-b91532b4{
+	width: 150rpx;
+	height: 60rpx;
+	background: #FFEFE7;
+	border-radius: 10rpx;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 28rpx;
+	font-family: PingFang SC;
+	font-weight: 500;
+	color: #FA7E68;
+}
+.soon.data-v-b91532b4 {
+	display: flex;
+	justify-content: center;
+}
+.soon-time.data-v-b91532b4 {
+	margin-top: 20rpx;
+	padding: 7rpx 20rpx;
+	font-size: 20rpx;
+	border-radius: 20rpx;
+	color: #FFFFFF;
+	background-color: rgba(0, 0, 0, .2);
+}
+/* 积分展示 end */
+/* 筛选 start */
+.screen.data-v-b91532b4 {
+	display: flex;
+	height: 70rpx;
+	background-color: #FFFFFF;
+}
+.whole.data-v-b91532b4,
+.month.data-v-b91532b4 {
+	display: flex;
+	justify-content: center;
+	width: 50%;
+	line-height: 70rpx;
+}
+.whole ._span.data-v-b91532b4,
+.month ._span.data-v-b91532b4 {
+	font-size: 28rpx;
+	color: #333333;
+}
+/* 筛选 end */
+/* 暂无积分明细 start */
+.not-detailed.data-v-b91532b4 {
+	padding: 100rpx 0 0;
+}
+.not-detailed>image.data-v-b91532b4 {
+	width: 200rpx;
+	margin: 0 275rpx;
+}
+.tips-text.data-v-b91532b4 {
+	text-align: center;
+	font-size: 30rpx;
+	color: #333333;
+	line-height: 70rpx;
+}
+/* 暂无积分明细 end */
+
+

@@ -1,0 +1,16 @@
+{
+  "navigationStyle": "custom",
+  "navigationBarTextStyle": "white",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "u-navbar": "/uview-ui/components/u-navbar/u-navbar",
+    "u-swiper": "/uview-ui/components/u-swiper/u-swiper",
+    "u-no-network": "/uview-ui/components/u-no-network/u-no-network",
+    "yp-loading": "/components/yp-loading/yp-loading",
+    "yp-role-info": "/components/ui-components/yp-role-info/yp-role-info",
+    "yp-member-card": "/components/ui-components/yp-member-card/yp-member-card",
+    "yp-rights-interests": "/components/ui-components/yp-rights-interests/yp-rights-interests",
+    "yp-tool-services": "/components/ui-components/yp-tool-services/yp-tool-services",
+    "yp-copyright": "/components/ui-components/yp-copyright/yp-copyright"
+  }
+}

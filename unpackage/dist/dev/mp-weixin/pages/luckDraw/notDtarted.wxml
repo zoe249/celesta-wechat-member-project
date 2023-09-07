@@ -1,0 +1,1 @@
+<view><block wx:if="{{type==1}}"><view class="not-activity"><image src="{{imgUrl+'/notDtarted-icon.png'}}" mode></image><view>签到活动还未开始噢～</view></view></block><block wx:if="{{type==2}}"><view class="not-activity"><image src="{{imgUrl+'/notLuckDraw-icon.png'}}" mode></image><view>请持续关注下期抽奖活动</view></view></block></view>

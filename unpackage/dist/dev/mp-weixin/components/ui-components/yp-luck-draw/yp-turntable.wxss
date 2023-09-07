@@ -1,0 +1,104 @@
+
+.turntable {
+	position: relative;
+	width: 555rpx;
+	height: 555rpx;
+	margin: 53rpx;
+	border-radius: 50%;
+	overflow: hidden;
+	z-index: 999;
+}
+@-webkit-keyframes turn {
+0% {
+		-webkit-transform: rotate(0deg);
+}
+25% {
+		-webkit-transform: rotate(-90deg);
+}
+50% {
+		-webkit-transform: rotate(-180deg);
+}
+75% {
+		-webkit-transform: rotate(-270deg);
+}
+100% {
+		-webkit-transform: rotate(-360deg);
+}
+}
+@keyframes turn {
+0% {
+		-webkit-transform: rotate(0deg);
+}
+25% {
+		-webkit-transform: rotate(-90deg);
+}
+50% {
+		-webkit-transform: rotate(-180deg);
+}
+75% {
+		-webkit-transform: rotate(-270deg);
+}
+100% {
+		-webkit-transform: rotate(-360deg);
+}
+}
+.rotateBoard {
+	width: 555rpx;
+	height: 555rpx;
+	z-index: 1;
+	border-radius: 50%;
+	overflow: hidden;
+	-webkit-transform: rotate(0deg);
+	        transform: rotate(0deg);
+}
+.sector {
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 50%;
+	height: 50%;
+	-webkit-transform-origin: 0% 100%;
+	        transform-origin: 0% 100%;
+	text-align: center;
+	overflow: hidden;
+}
+.name {
+	position: absolute;
+	width: 470rpx;
+	height: 470rpx;
+	text-align: center;
+	margin: 43rpx;
+	box-sizing: border-box;
+	color: #E43B71;
+}
+.prize-img {
+	width: 60rpx;
+	height: 60rpx;
+	margin: 20rpx 0;
+}
+.but {
+	position: absolute;
+	top: calc(50% - 83rpx);
+	left: calc(50% - 64rpx);
+	width: 128rpx;
+	height: 166rpx;
+	z-index: 2;
+}
+.pic {
+	width: 128rpx;
+	height: 166rpx;
+	margin-top: -24rpx;
+}
+.prizes {
+	position: relative;
+}
+.prizes-item {
+	position: absolute;
+	width: 275rpx;
+	height: 275rpx;
+	-webkit-transform-origin: bottom right;
+	        transform-origin: bottom right;
+	border: 2rpx solid #000000;
+	background-color: #007AFF;
+}
+

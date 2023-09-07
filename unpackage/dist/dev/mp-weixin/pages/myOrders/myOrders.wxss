@@ -1,0 +1,463 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 订单 start */
+.declaration {
+	padding: 0 0 50rpx;
+	border-radius: 10rpx 10rpx 0 0;
+}
+.declaration-tabs {
+	position: fixed;
+	top: 0;
+	width: 750rpx;
+	height: 100rpx;
+	background-color: #EEEEEE;
+}
+.order-conten {
+	position: fixed;
+	top: 100rpx;
+	width: 750rpx;
+	height: calc(100vh - 100rpx);
+	overflow: hidden;
+}
+/* 订单 end */
+/* 订单列表 start */
+.otder-item {
+	margin: 0 20rpx 20rpx;
+	padding: 20rpx 20rpx;
+	border-radius: 10rpx;
+	background-color: #FFFFFF;
+}
+.otder-item-title {
+	display: flex;
+	justify-content: space-between;
+	height: 80rpx;
+	line-height: 80rpx;
+	font-size: 28rpx;
+	color: #333333;
+}
+.otder-item-title .item-title-status {
+	font-weight: 600;
+}
+.otder-item-info {
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+	height: 100%;
+}
+.otder-item-left {
+	width: 490rpx;
+	height: 150rpx;
+}
+.otder-item-left>image {
+	width: 100rpx;
+	height: 100rpx;
+	margin: 25rpx 10rpx 25rpx 0;
+}
+.otder-item-right {
+	width: 200rpx;
+	height: 100rpx;
+	margin: 25rpx 0;
+	text-align: right;
+	font-size: 26rpx;
+	line-height: 50rpx;
+	color: #333333;
+}
+.otder-item-right>view:nth-child(1) {
+	font-size: 30rpx;
+	font-weight: 600;
+}
+.order-operation {
+	display: flex;
+	justify-content: flex-end;
+	width: 100%;
+	height: 80rpx;
+	border-top: 2rpx solid #EEEEEE;
+}
+.cancel {
+	width: 160rpx;
+	height: 50rpx;
+	margin: 15rpx 0 15rpx 20rpx;
+	border: 2rpx solid #999999;
+	border-radius: 25rpx;
+	text-align: center;
+	font-size: 24rpx;
+	font-weight: 500;
+	line-height: 50rpx;
+	color: #999999;
+}
+.payment {
+	width: 160rpx;
+	height: 50rpx;
+	margin: 15rpx 0 15rpx 20rpx;
+	background-color: #C83C23;
+	border-radius: 25rpx;
+	text-align: center;
+	font-size: 24rpx;
+	font-weight: 500;
+	line-height: 50rpx;
+	color: #FFFFFF;
+}
+/* 订单列表 end */
+/* 列表为空 start */
+.empty {
+	margin: 0 200rpx;
+}
+.empty>image {
+	display: block;
+	width: 150rpx;
+	margin: 150rpx auto 20rpx;
+}
+.tips-text {
+	text-align: center;
+	font-size: 30rpx;
+	color: #333333;
+	line-height: 50rpx;
+}
+/* 列表为空 end */
+
+

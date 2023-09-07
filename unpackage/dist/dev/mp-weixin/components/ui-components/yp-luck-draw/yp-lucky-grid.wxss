@@ -1,0 +1,51 @@
+
+.prizes {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	height: 100%;
+}
+.prize-item {
+	position: relative;
+	width: 170rpx;
+	height: 170rpx;
+	margin: 5rpx;
+}
+.prize-item>view>image {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+.prize-item-info {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+.prize-item-info>image {
+	display: block;
+	width: 70rpx;
+	height: 70rpx;
+	margin: 30rpx auto 0;
+}
+.prize-item-info>view {
+	width: 130rpx;
+	margin: 0 20rpx;
+	text-align: center;
+	font-size: 24rpx;
+	font-weight: 500;
+	color: #F69BAC;
+	line-height: 60rpx;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+.item-0 {
+}
+
+

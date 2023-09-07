@@ -1,0 +1,229 @@
+/* 卡头部 start */
+.content.data-v-7cd7c604 {
+  margin: 0 20rpx;
+}
+.cards.data-v-7cd7c604 {
+  position: relative;
+  margin: 20rpx 0;
+  border-radius: 20rpx;
+  overflow: hidden;
+}
+.cards .mask.data-v-7cd7c604 {
+  padding: 20rpx 0;
+  background-color: rgba(0, 0, 0, 0.7);
+  z-index: 40;
+}
+.cards .mask-default.data-v-7cd7c604 {
+  padding: 20rpx 0;
+}
+.card-header.data-v-7cd7c604 {
+  display: flex;
+  justify-content: space-between;
+  height: 100rpx;
+  margin: 0 20rpx;
+}
+.header-name.data-v-7cd7c604 {
+  display: flex;
+}
+.header-name image.data-v-7cd7c604 {
+  width: 80rpx;
+  height: 80rpx;
+  border-radius: 50%;
+  overflow: hidden;
+  margin: 10rpx 20rpx 10rpx 0;
+}
+.header-name view.data-v-7cd7c604 {
+  font-size: 30rpx;
+  color: #FFFFFF;
+  line-height: 100rpx;
+}
+.face-value.data-v-7cd7c604 {
+  font-size: 26rpx;
+  color: #FFFFFF;
+  line-height: 110rpx;
+}
+/* 卡头部 end */
+/* 卡余额 start */
+.balance.data-v-7cd7c604 {
+  height: 110rpx;
+  margin: 0 20rpx;
+}
+.balance-value.data-v-7cd7c604 {
+  height: 60rpx;
+  text-align: center;
+}
+.balance-value ._span.data-v-7cd7c604:nth-child(1) {
+  font-size: 24rpx;
+  line-height: 55rpx;
+  color: #FFFFFF;
+}
+.balance-value ._span.data-v-7cd7c604:nth-child(2) {
+  margin-left: 20rpx;
+  font-size: 40rpx;
+  font-weight: 600;
+  letter-spacing: 5rpx;
+  line-height: 55rpx;
+  color: #FFFFFF;
+}
+.balance-term.data-v-7cd7c604 {
+  display: flex;
+  justify-content: center;
+}
+.balance-time.data-v-7cd7c604 {
+  margin-top: 5rpx;
+  padding: 7rpx 20rpx;
+  font-size: 20rpx;
+  border-radius: 20rpx;
+  color: #FFFFFF;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+/* 卡余额 end */
+/* 卡操作 start */
+.operation.data-v-7cd7c604 {
+  height: 80rpx;
+  background-color: rgba(0, 0, 0, 0.4);
+  padding: 0 20rpx;
+  padding-right: 30rpx;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.operation > view.data-v-7cd7c604 {
+  display: flex;
+}
+.transfer.data-v-7cd7c604 {
+  width: 100rpx;
+  height: 50rpx;
+  margin: 12rpx;
+  padding: 0 15rpx;
+  font-size: 22rpx;
+  text-align: center;
+  color: #FFFFFF;
+  line-height: 50rpx;
+  border: 1rpx solid #FFFFFF;
+  border-radius: 15rpx;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+.record.data-v-7cd7c604 {
+  width: 100rpx;
+  height: 50rpx;
+  margin: 15rpx;
+  padding: 0 15rpx;
+  font-size: 22rpx;
+  text-align: center;
+  color: #FFFFFF;
+  line-height: 50rpx;
+  border-radius: 15rpx;
+  background-color: #ED6D46;
+}
+/* 卡操作 end */
+/* 卡说明 start */
+.explain.data-v-7cd7c604 {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 20rpx;
+}
+.explain-text.data-v-7cd7c604 {
+  width: 635rpx;
+  margin: 8rpx 10rpx 0;
+  font-size: 20rpx;
+  color: #FFFFFF;
+  line-height: 30rpx;
+  /* display: -webkit-box;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	-webkit-line-clamp: 2;
+	-webkit-box-orient: vertical; */
+}
+.arrow-down.data-v-7cd7c604 {
+  margin-top: 30rpx;
+}
+.action.data-v-7cd7c604 {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 20rpx;
+  height: 60rpx;
+}
+.action .explain-text.data-v-7cd7c604 {
+  width: 635rpx;
+  /* height: 60rpx; */
+  margin: 8rpx 10rpx 0;
+  font-size: 20rpx;
+  color: #FFFFFF;
+  line-height: 30rpx;
+  display: -webkit-box;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+/* 卡说明 end */
+/* 列表为空 start */
+.empty.data-v-7cd7c604 {
+  margin: 0 200rpx;
+}
+.empty > image.data-v-7cd7c604 {
+  width: 200rpx;
+  margin: 100rpx 75rpx 20rpx;
+}
+.tips-text.data-v-7cd7c604 {
+  text-align: center;
+  font-size: 30rpx;
+  color: #333333;
+  line-height: 50rpx;
+}
+/* 列表为空 end */
+/* 点击加载更多 start */
+.load-more.data-v-7cd7c604 {
+  padding: 30rpx 0;
+}
+/* 用户二维码/条形码 start */
+.userCode.data-v-7cd7c604 {
+  position: relative;
+  height: 70vh;
+}
+.popup.data-v-7cd7c604 {
+  height: 70vh;
+  z-index: 40;
+}
+.bar-code.data-v-7cd7c604 {
+  padding: 100rpx 0 20rpx;
+  margin: 0 20rpx;
+  border-bottom: 2rpx solid #EEEEEE;
+}
+.code-title.data-v-7cd7c604 {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 20rpx;
+  font-weight: bold;
+}
+.bar-code-code.data-v-7cd7c604 {
+  height: 200rpx;
+}
+.bar_code.data-v-7cd7c604 {
+  width: 670rpx;
+  height: 200rpx;
+  margin: 0 20rpx;
+}
+.bar-code-num.data-v-7cd7c604 {
+  height: 80rpx;
+  font-size: 30rpx;
+  text-align: center;
+  color: #333333;
+  line-height: 60rpx;
+}
+.qr-code > image.data-v-7cd7c604 {
+  width: 300rpx;
+  height: 300rpx;
+  margin: 30rpx 225rpx;
+}
+.userCodeMask.data-v-7cd7c604 {
+  position: absolute;
+  top: 0;
+  width: 750rpx;
+  height: 70vh;
+  background-color: #FFFFFF;
+  z-index: 50;
+}
+/* 用户二维码/条形码 end */
+

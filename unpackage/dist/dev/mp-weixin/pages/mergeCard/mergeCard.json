@@ -1,0 +1,11 @@
+{
+  "navigationBarTitleText": "会员合并",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "u-form": "/uview-ui/components/u-form/u-form",
+    "u-input": "/uview-ui/components/u-input/u-input",
+    "u-line": "/uview-ui/components/u-line/u-line",
+    "u-form-item": "/uview-ui/components/u-form-item/u-form-item",
+    "u-empty": "/uview-ui/components/u-empty/u-empty"
+  }
+}

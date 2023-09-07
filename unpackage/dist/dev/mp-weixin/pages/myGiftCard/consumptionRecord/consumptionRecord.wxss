@@ -1,0 +1,81 @@
+page {
+  font-size: 28rpx;
+  background-color: #EFF5F8;
+}
+.zong {
+  margin-bottom: 20rpx;
+}
+.vip-card-fix {
+  position: fixed;
+  top: 0;
+  display: flex;
+  background-color: #EFF5F8;
+}
+.vip-card {
+  width: 710rpx;
+  display: flex;
+  justify-content: space-between;
+  font-weight: 600;
+  padding: 0 20rpx;
+  height: 80rpx;
+  line-height: 80rpx;
+}
+.copy-button {
+  margin: 0 10rpx;
+  padding: 2rpx 20rpx;
+  font-size: 22rpx;
+  text-align: center;
+  border-radius: 22rpx;
+  background-color: #FDF0EC;
+  border: 1rpx solid #ED6D46;
+  color: #ED6D46;
+}
+.top-text {
+  position: fixed;
+  top: 78rpx;
+  font-weight: 600;
+  padding: 0 20rpx;
+  width: 710rpx;
+  background-color: #FDF0EC;
+  height: 70rpx;
+  line-height: 70rpx;
+}
+.content {
+  margin-top: 150rpx;
+}
+.content-box {
+  font-size: 24rpx;
+  margin-bottom: 2rpx;
+  background-color: #FFFFFF;
+  padding: 15rpx 20rpx;
+}
+.ordernum {
+  display: flex;
+  justify-content: space-between;
+  height: 50rpx;
+  line-height: 50rpx;
+}
+.spending {
+  font-size: 28rpx;
+  color: #84A729;
+}
+.norecord {
+  margin-top: 50%;
+}
+.norecord .norecord-img {
+  width: 200rpx;
+  margin: 0 auto;
+}
+.norecord .norecord-img image {
+  width: 200rpx;
+}
+.norecord .norecord-text {
+  margin-top: 20rpx;
+  text-align: center;
+}
+/* 点击加载更多 start */
+.load-more {
+  padding: 0 0 30rpx;
+}
+/* 点击加载更多 end */
+
